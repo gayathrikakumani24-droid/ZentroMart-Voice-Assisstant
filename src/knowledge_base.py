@@ -13,6 +13,15 @@ Features:
 - Numeric validation, finite embedding checks, atomic writes, and deduplication.
 """
 
+import os
+# Throttle BLAS and OpenMP thread pools to prevent OOM on 512MB RAM instances (e.g., Render Free Tier)
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
+os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
+os.environ.setdefault("VECLIB_MAXIMUM_THREADS", "1")
+os.environ.setdefault("NUMEXPR_NUM_THREADS", "1")
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
 from pathlib import Path
 import json
 import re
@@ -49,8 +58,27 @@ DOC_TYPE_PRIORITY = {
     "other": 5,
 }
 
-# Load the embedding model once.
-model = SentenceTransformer(MODEL_NAME)
+_cached_model = None
+
+def get_embedding_model():
+    """Lazy load SentenceTransformer with single-thread PyTorch to fit in 512MB RAM limits."""
+    global _cached_model
+    if _cached_model is None:
+        try:
+            import torch
+            torch.set_num_threads(1)
+            torch.set_num_interop_threads(1)
+        except Exception:
+            pass
+        _cached_model = SentenceTransformer(MODEL_NAME)
+    return _cached_model
+
+class _LazyModel:
+    def __getattr__(self, name):
+        return getattr(get_embedding_model(), name)
+
+# Transparent lazy model instance
+model = _LazyModel()
 
 # In-memory cache for loaded index and chunk metadata
 _cached_index = None
