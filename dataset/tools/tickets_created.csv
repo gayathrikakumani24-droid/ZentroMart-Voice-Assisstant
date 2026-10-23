@@ -1,0 +1,46 @@
+ticket_id,created_at,order_id,intent,reason,summary
+TKTd5d7e28a041e48d19d475506edcc44d4,2026-10-22T17:06:30,,,,This is a test summary for escalation issue reporting checks made.
+TKT434913b4d7204266b6906b9233ca15ad,2026-10-22T19:49:15,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT58116bb1b7d943d4b904c942e51cc208,2026-10-22T19:54:11,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT33f43b18f6974459935c987e58da0005,2026-10-22T19:55:45,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKTef45cd7086ee45b7b9ff4515fc655185,2026-10-22T19:55:45,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT7e644aa7c58d4501a8f429b34cb26b5c,2026-10-22T19:55:46,66492475,escalation,human_requested,Customer explicitly requested to speak to a human colleague/agent.
+TKTb84f4d3b88ff4b48a8f1cfe3c2c9e3fb,2026-10-22T19:55:46,45011817,repeat_contact,repeat_contact,Repeat contact detected for order 45011817 (contacts_last_7_days: 2). Escalating to senior support.
+TKT616e1172052946cb8bbcb8c4d8d63f6b,2026-10-22T19:55:46,48196636,repeat_contact,repeat_contact,Repeat contact detected for order 48196636 (contacts_last_7_days: 2). Escalating to senior support.
+TKT0a460b6e6105491492bbd1971956b6c3,2026-10-22T19:55:46,16640894,refund_overdue,refund_overdue,Refund for order 16640894 initiated on 2026-07-20 via upi is overdue beyond the 3-day grace period. RRN: 315633825001.
+TKT5b3bc8248d194035943348dc6f294d7a,2026-10-22T19:55:47,84889113,refund_overdue,refund_overdue,Refund for order 84889113 initiated on 2026-07-09 via upi is overdue beyond the 3-day grace period. RRN: 680055503203.
+TKTa59daf961e114863a568d24a4a848812,2026-10-22T19:57:19,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKTfc40c33e87bd412a9ebfd8084c68e873,2026-10-22T20:25:36,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT3843af6f13584ab39156eaeaecaed0e8,2026-10-22T20:26:38,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT423e57cf212a40e392809bf7c9e2e74d,2026-10-22T20:27:38,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKTc2efc5343af84f9394d646faf32296b7,2026-10-22T20:27:39,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT63b685b7349a43f2b7b736f4b91dee8b,2026-10-22T20:27:39,66492475,escalation,human_requested,Customer explicitly requested to speak to a human colleague/agent.
+TKTff39fa8ef248467e869857d0b0511c40,2026-10-22T20:27:39,45011817,repeat_contact,repeat_contact,Repeat contact detected for order 45011817 (contacts_last_7_days: 2). Escalating to senior support.
+TKTf5c146f1db7540f7ae5e0526431816c8,2026-10-22T20:27:39,48196636,repeat_contact,repeat_contact,Repeat contact detected for order 48196636 (contacts_last_7_days: 2). Escalating to senior support.
+TKT7c157b81b7c1464e9de2cc6a57a4b471,2026-10-22T20:27:39,16640894,refund_overdue,refund_overdue,Refund for order 16640894 initiated on 2026-07-20 via upi is overdue beyond the 3-day grace period. RRN: 315633825001.
+TKTba0fd3b5a28440d68e09f43d3f710a26,2026-10-22T20:27:40,84889113,refund_overdue,refund_overdue,Refund for order 84889113 initiated on 2026-07-09 via upi is overdue beyond the 3-day grace period. RRN: 680055503203.
+TKT6f47839d1dec4366a74fefb54b1b9e6d,2026-10-22T20:29:31,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT426e36bab7064949872c4c8ac34dc434,2026-10-22T20:34:38,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT19f4ea225435418daae615ab89559725,2026-10-22T20:40:39,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT29652f1765c24639a76765916029445f,2026-10-22T20:41:26,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT5abed24dff8e4d10a5ce6f0ed335246a,2026-10-22T20:41:26,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT5585771e8fe542eebccfa105311fe227,2026-10-22T20:41:26,66492475,escalation,human_requested,Customer explicitly requested to speak to a human colleague/agent.
+TKTb426c39297194c26a37c257350690192,2026-10-22T20:41:26,45011817,repeat_contact,repeat_contact,Repeat contact detected for order 45011817 (contacts_last_7_days: 2). Escalating to senior support.
+TKT040515ecf1464637bf2418b4fd13b0aa,2026-10-22T20:41:27,48196636,repeat_contact,repeat_contact,Repeat contact detected for order 48196636 (contacts_last_7_days: 2). Escalating to senior support.
+TKT9e239e4c70cc4e09a2d5acb28874ee16,2026-10-22T20:41:27,16640894,refund_overdue,refund_overdue,Refund for order 16640894 initiated on 2026-07-20 via upi is overdue beyond the 3-day grace period. RRN: 315633825001.
+TKT004a40cef74b4621b811864d8688af83,2026-10-22T20:41:27,84889113,refund_overdue,refund_overdue,Refund for order 84889113 initiated on 2026-07-09 via upi is overdue beyond the 3-day grace period. RRN: 680055503203.
+TKT54d8ecf7f8a04fd1bf22ecc7055b9e45,2026-10-22T21:10:58,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT088c23601591499b84b7fc34476a3641,2026-10-23T13:53:29,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKTc5d108b922c94a2294cdecb7bf445b9d,2026-10-23T14:15:24,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT327197cc1bea4faa8451bd74df97660f,2026-10-23T14:22:18,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKTab9fc4649143430b8555195bc992557f,2026-10-23T14:50:24,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT11c07bf8fa8140908e905b79daa93374,2026-10-23T15:21:47,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT062a8ee689b447c49601c406d6e30efa,2026-10-23T15:24:36,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT3341a4e4a92a478aac32eaad4d397fc1,2026-10-23T15:24:54,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT41a5244ffc474fffb50e7eba5525c4b3,2026-10-23T15:27:44,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKT82af3548e28f4c6dbcc0fe3ccd28bfb4,2026-10-23T15:27:59,89782837,damage_escalation,high_value_damage,"Customer reports damaged item for order 89782837 exceeding ₹10,000. Priority Resolution review required."
+TKTe925b1dc130043da9cb4f9b4684d5250,2026-10-23T15:30:22,66492475,escalation,human_requested,Customer explicitly requested to speak to a human colleague/agent.
+TKT7ea1ab1afe6f467883211e802fc55f89,2026-10-23T15:30:22,45011817,repeat_contact,repeat_contact,Repeat contact detected for order 45011817 (contacts_last_7_days: 2). Escalating to senior support.
+TKTc3f4d21283524e848fd874791db9c613,2026-10-23T15:30:38,48196636,repeat_contact,repeat_contact,Repeat contact detected for order 48196636 (contacts_last_7_days: 2). Escalating to senior support.
+TKT7e8539a267ed4e5b9203d3157dec4232,2026-10-23T15:31:42,16640894,refund_overdue,refund_overdue,Refund for order 16640894 initiated on 2026-07-20 via upi is overdue beyond the 3-day grace period. RRN: 315633825001.
+TKT14d4fda51ac14ca1b5b371f609aed7df,2026-10-23T15:33:42,84889113,refund_overdue,refund_overdue,Refund for order 84889113 initiated on 2026-07-09 via upi is overdue beyond the 3-day grace period. RRN: 680055503203.

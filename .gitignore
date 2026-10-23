@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp
+
+# Environment and secrets
+.env
+.env.local
+
+# Outputs and audio artifacts
+outputs/
+samples/
+uploads/
+*.wav
+*.mp3
+*.ogg
+
+# Pytest / unittest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
