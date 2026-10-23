@@ -1,6 +1,6 @@
 # ZentroMart VoiceOps — Capstone Project Report
 
-**Author / Candidate**: Capstone Engineering Team  
+**Author / Candidate**: Gayathri
 **System**: ZentroMart VoiceOps Customer Support Agent  
 **Date**: October 2026  
 **Status**: Ready with Documented Limitations (Verified Mocked / Unverified Live APIs)  
