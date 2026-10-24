@@ -24,7 +24,7 @@ export function ConnectionStatus({ connectionStatus = 'connecting', onRetry }) {
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
         <WifiOff size={16} />
         <span>
-          <b>Backend Disconnected:</b> Unable to reach FastAPI backend on port 8000.
+          <b>Backend Disconnected:</b> Unable to reach ZentroMart backend service.
         </span>
       </div>
       {onRetry && (

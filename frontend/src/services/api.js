@@ -4,8 +4,22 @@
  * Communicates with the FastAPI backend.
  * Zero credentials in browser; all Groq and Gnani calls are handled by the backend.
  */
-
-const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000').replace(/\/$/, '');
+export const API_BASE_URL = (() => {
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL.replace(/\/$/, '');
+  }
+  // When running in production or hosted on a remote domain (e.g. onrender.com),
+  // default to same-origin relative URLs ('') so requests route directly to the FastAPI server.
+  if (
+    import.meta.env.PROD ||
+    (typeof window !== 'undefined' &&
+      window.location.hostname !== 'localhost' &&
+      window.location.hostname !== '127.0.0.1')
+  ) {
+    return '';
+  }
+  return 'http://localhost:8000';
+})();
 
 export class APIError extends Error {
   constructor(message, status = null) {

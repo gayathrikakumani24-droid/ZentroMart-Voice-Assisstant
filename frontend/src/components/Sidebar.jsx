@@ -57,7 +57,7 @@ export function Sidebar({
             role="status"
           >
             <span className="status-dot" aria-hidden="true" />
-            <span>{isConnected ? 'Connected (Port 8000)' : 'Disconnected'}</span>
+            <span>{isConnected ? 'Connected' : 'Disconnected'}</span>
           </div>
         </div>
 

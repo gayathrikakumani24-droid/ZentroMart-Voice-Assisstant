@@ -1,7 +1,6 @@
 import React from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
-
-const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000').replace(/\/$/, '');
+import { API_BASE_URL } from '../services/api';
 
 export function AudioReply({ audioBase64, audioUrl, ttsGenerated = true, ttsError = null }) {
   // If voice synthesis succeeded, render playable HTML audio element

@@ -127,7 +127,7 @@ describe('React Component Unit Tests', () => {
 
     expect(screen.getByText('ZentroMart')).toBeInTheDocument();
     expect(screen.getByText('VoiceOps AI Support')).toBeInTheDocument();
-    expect(screen.getByText(/Connected \(Port 8000\)/i)).toBeInTheDocument();
+    expect(screen.getByText(/Connected/i)).toBeInTheDocument();
     expect(screen.getByText('sess_test_sidebar_123')).toBeInTheDocument();
 
     const newBtn = screen.getByRole('button', { name: /start new conversation/i });
